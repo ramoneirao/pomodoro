@@ -4,8 +4,6 @@ import "./style/theme.css"
 import "./style/global.css"
 
 export function App() {
-    console.log("Testando console")
-
     return (
         <>
             <Heading>Teste de Props</Heading>
