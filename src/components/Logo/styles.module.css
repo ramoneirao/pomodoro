@@ -16,11 +16,11 @@
     font-size: 4.2rem;
     text-decoration: none;
     color: var(--primary);
-    transition: filter 0.2s;
+    transition: filter 0.3s;
 }
 
 .logoLink:hover {
-    filter: brightness(0.8);
+    filter: brightness(0.5);
 }
 
 .logoLink svg {
