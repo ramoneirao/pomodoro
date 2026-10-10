@@ -5,6 +5,7 @@ import { CountDown } from "./components/CountDown"
 import { Cycles } from "./components/Cycles"
 import { DefaultInput } from "./components/DefautInput"
 import { DefaultButton } from "./components/DefautButton"
+import { Footer } from "./components/Footer"
 
 import { PlayCircleIcon } from "lucide-react"
 
@@ -45,6 +46,10 @@ export function App() {
                     </div>
 
                 </form>
+            </Container>
+
+            <Container>
+                <Footer />
             </Container>
         </>
     )
