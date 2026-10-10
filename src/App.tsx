@@ -3,10 +3,13 @@ import { Logo } from "./components/Logo"
 import { Menu } from "./components/Menu"
 import { CountDown } from "./components/CountDown"
 import { Cycles } from "./components/Cycles"
+import { DefaultInput } from "./components/DefautInput"
+import { DefaultButton } from "./components/DefautButton"
+
+import { PlayCircleIcon } from "lucide-react"
 
 import "./style/theme.css"
 import "./style/global.css"
-import { DefaultInput } from "./components/DefoutInput"
 
 export function App() {
     return (
@@ -38,7 +41,7 @@ export function App() {
                     </div>
 
                     <div className="formRow">
-                        <button type="submit">Enviar</button>
+                        <DefaultButton icon={<PlayCircleIcon />} type="submit" />
                     </div>
 
                 </form>
